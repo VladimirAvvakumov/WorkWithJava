@@ -6,7 +6,7 @@ public class task10 {
 
         for(int i = 0 ; i < arr.length; i++){
             for (int j =0; j< arr[i].length; j++ ) {
-                System.out.println( arr[i][j]);// "%d" не выходит выдает ошибку
+                System.out.print( arr[i][j]);// "%d" не выходит выдает ошибку
             }
             System.out.println();
         }

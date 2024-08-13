@@ -3,7 +3,7 @@ package lection1;
 public class task3 {
     public static void main(String[] args) {
     float f = 123.4f;  // суффикс являеться обязательным
-    double pi = 1.1242D; // суффикс не являеться обязательным
+    double pi = 1.1242D; // суффикс  являеться обязательным
     System.out.println(f);
     System.out.println(pi);
 

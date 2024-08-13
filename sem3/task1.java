@@ -1,4 +1,4 @@
-package seminar2;
+package sem3;
 
 public class task1 {
 }

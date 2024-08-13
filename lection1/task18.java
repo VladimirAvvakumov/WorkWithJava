@@ -8,7 +8,7 @@ public class task18 {
         int mounth = 2;
         String text = "";
         switch (mounth) {
-            case 1:
+            case 2:
                 text = "Autumn";
                 break;
         

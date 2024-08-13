@@ -8,7 +8,7 @@ public class task15 {
         System.out.println(q);
 
         int f = 1, b = 2;
-        int c = f+b;
+        int c = f + b;
         String res = f + "+" + b + "=" + c;// этим способом пользуемся если надо вывести в терминал знаки .
         System.out.println(res); 
 

@@ -8,13 +8,13 @@ public class task2 {
         System.out.println(s.charAt(2));// этот метод позволяет обратится к любому символу по индексу
         String g = "qwer";
         boolean b = s.length() >= 5 && s.charAt(4) == '1';// на примере показано как можно проверить 
-        System.out.println(b);// необходимые нам вопросы по переменоой qwer. одну аперсанту не использовать
+        System.out.println(b);// необходимые нам вопросы по переменоой g. одну аперсанту не использовать
         //области видимости переменных
         int i = 123;
         System.out.println(i);
 
     }
-    //System.out.println(i); тут выдаст ошибку
+    //System.out.println(i); тут выдаст ошибку то есть области видимости .
     
 }
 

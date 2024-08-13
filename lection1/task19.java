@@ -7,7 +7,7 @@ public class task19 {
             case 1:// если значение в кейсе не сходиться со значением переменной то выполниться брейк.
                 System.out.println("a");
                 break;
-            case 2:
+            case 123:
                 System.out.println("a");
                 break;
             default:// необязательное значение .
