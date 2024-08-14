@@ -12,6 +12,7 @@ public class Log {
 
         } catch (Exception e) {
             e.printStackTrace();
+
         }
     }
 

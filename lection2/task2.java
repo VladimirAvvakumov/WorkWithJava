@@ -7,8 +7,9 @@ import java.io.FileReader;
 // Работа с файловой системой.
 public class task2 {
     public static void main(String[] args) {
-        File f1 = new File("file.txt");
-        File f2 = new File("C:/WorkWithJava/file.txt");
+        // для работы с файлами надо использовать тип File , создаем переменную и указываем путь к файлу.
+        File f1 = new File("file.txt"); //путь к файлу
+        File f2 = new File("C:/WorkWithJava/file.txt");//абсолютный путь к файлу
 //        String pathProject = System.getProperty("user.dir");
 //        String pathFile = pathProject.concat("/file.txt");
 //        File f3 = new File(pathFile);
