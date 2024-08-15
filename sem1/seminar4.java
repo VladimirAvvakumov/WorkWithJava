@@ -53,7 +53,7 @@ public class seminar4 {
 //        float f = 100000000000000000000000000.0f;
 //        System.out.println(f);
 //
-        try(BufferedReader br = new BufferedReader(new FileReader(path))) {// метод бафиредридер читает построчно наш информацию
+        try(BufferedReader br = new BufferedReader(new FileReader(path))) {// метод бафиредридер читает построчно нашу информацию
             while ((line = br.readLine()) != null) {// в переменную line - то что прочитал буффирид ридер методом ридлайн пока не пусто
                 System.out.println(line);// выводим на экран инфу
             }
