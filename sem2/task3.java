@@ -8,23 +8,27 @@ import java.time.LocalDateTime;
 public class task3 {
     public static void main(String[] args) {
 
-    foo();
+        foo();
     }
 
     private static void foo() {
+        // Инициализируем строку, содержащую текст, который будет записан в файл
         String str = "Hello World";
 
+        // Создаём объект File, представляющий файл, в который будет произведена запись
         File f = new File("hello.txt");
-        FileWriter fw = null;
 
+        // Инициализируем объект FileWriter, который будет использоваться для записи в
+        // файл
+        FileWriter fw = null;
         try {
-            fw = new FileWriter(f);//открываем поток для записи в файл
-            fw.write(str);//записываем в файл данные из файла стр
-            fw.flush();//необходимо для записи
+            fw = new FileWriter(f);// открываем поток для записи в файл
+            fw.write(str);// записываем в файл данные из файла стр
+            fw.flush();// необходимо для записи
             // в блоке кетч обрабатывается ошибка
         } catch (Exception e) {
             System.out.println("Error: " + e);
-            //блоков кетч может быть несколько
+            // блоков кетч может быть несколько
         } catch (Throwable e) {
             e.printStackTrace();
         } finally {// выполнится в любом случае
@@ -34,7 +38,6 @@ public class task3 {
                 System.out.println("Error: Stream can not closed");
             }
         }
-
 
     }
 }

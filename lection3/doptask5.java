@@ -1,9 +1,9 @@
-package Lesson_03;
+package lection3;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Ex005 {
+public class doptask5 {
     public static void main(String[] args) {
         StringBuilder day = new StringBuilder("28");
         StringBuilder month = new StringBuilder("9");

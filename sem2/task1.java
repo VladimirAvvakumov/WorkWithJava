@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 
 
 public class task1 {
-    static final Logger LOGGER = Log.getLogger(task5.class.getName());// создали переменную логер и методом гетлоггер запустили логирование
+    static final Logger LOGGER = Log.getLogger(task1.class.getName());// создали переменную логер и методом гетлоггер запустили логирование
     //метод гетнэйм спасает в случае если мы захотели переименовать класс.(то есть переименуеться на автомате)
 
 
@@ -42,7 +42,7 @@ public class task1 {
         for (File file : files) {// проходимся циклом по всем файлам в папке
             String name = file.getName();//у каждого файла по очереди берем имя
             result.add(name);//добавляем в переменную резалт имена файлов
-            if (isThrow()) {//методом записываем в логи
+            if (isThrow()) {//методом записываем в логи это ловушка для записи в лог 
                 LOGGER.log(Level.INFO, "Error reading directory: " + folder.getAbsolutePath());
                 //логгер запиши в лог уровень инфа "ошибка"
             }
@@ -60,7 +60,7 @@ public class task1 {
                 fw.write(s + "\n");//записываем строчку и переносим строку ниже
                 fw.flush();// необходимо для записи в любом случае
                 if (isThrow()) {//
-                    LOGGER.log(Level.INFO, "Error writing directory: " + s);
+                    LOGGER.log(Level.INFO, "Error writing directory: " + s);// в записи лога 
                 }
             }
         } catch (Exception e) {// любое исключение,если оно возникло то

@@ -1,8 +1,8 @@
-package Lesson_03;
+package lection3;
 
 import java.util.ArrayList;
 
-public class Ex003 {
+public class doptask3 {
     public static void main(String[] args) {
         ArrayList<Integer> list1 = new ArrayList<Integer>();
         ArrayList<Integer> list2 = new ArrayList<>();
@@ -10,7 +10,7 @@ public class Ex003 {
         ArrayList<Integer> list4 = new ArrayList<>(list3);
         System.out.println(list3);
         list3.add(123);
-        System.out.println(list4);
+        System.out.println(list3);
 
     }
 }

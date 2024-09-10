@@ -1,8 +1,9 @@
-package Lesson_03;
+package lection3;
 
-import java.util.*;
+import java.util.Iterator;
+import java.util.List;
 
-public class Ex007 {
+public class doptask7 {
     public static void main(String[] args) {
         List<Integer> list = List.of(1, 12, 123, 1234, 12345);
 

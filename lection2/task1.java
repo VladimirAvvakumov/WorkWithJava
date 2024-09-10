@@ -3,7 +3,7 @@ package lection2;
 public class task1 { //программа для написания ста плюсов.
     public static void main(String[] args) {
         String str = "";
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 100000; i++) {
             str += "+";
         }
 

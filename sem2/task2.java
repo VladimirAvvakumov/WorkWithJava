@@ -16,14 +16,20 @@ public class task2 {
     }
 
     public static void task1(int n) {
+        // Создаём две константы для удобства
         String c1 = "c1";
         String c2 = "c2";
-        StringBuilder result = new StringBuilder();// метод стрингбилдер построитель строк
+        // Создаём объект StringBuilder для построения строки
+        StringBuilder result = new StringBuilder();
+        // Вычисляем количество итераций цикла
         int k = n * 2;
+        // Организуем цикл, который выполнится k раз
         for (int i = 0; i < k; i++) {
-            result.append(c1);//аппенд работает как и в питоне добовляет в переменную значение в скобках
-            result.append(c2);//
+            // Добавляем символы c1 и c2 в StringBuilder
+            result.append(c1);
+            result.append(c2);
         }
+        // Выводим результат в консоль
         System.out.println(result);
     }
 }

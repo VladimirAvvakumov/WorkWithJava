@@ -12,7 +12,7 @@ public class Log {
             LogManager.getLogManager().readConfiguration(in);//класс логменеджер. хотим получить сам логменеджер(переменной ин)
 
         } catch (Exception e) {//ошибка если есть то в терминал
-            e.printStackTrace();
+            e.printStackTrace();//выведет сообщение в консоль
 
         }
     }
