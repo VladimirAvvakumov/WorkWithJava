@@ -98,11 +98,11 @@ class LaptopStore {
 
             switch (choice) {
                 case 1:
-                    System.out.println("Введите минимальный объем ОЗУ:");
+                    System.out.println("Введите объем ОЗУ:");
                     filters.put("ram", scanner.nextInt());
                     break;
                 case 2:
-                    System.out.println("Введите минимальный объем ЖД:");
+                    System.out.println("Введите объем ЖД:");
                     filters.put("hddCapacity", scanner.nextInt());
                     break;
                 case 3:
@@ -156,8 +156,9 @@ public class HomeWork {
         int choice;
 
         do {
-            System.out.println("\n===== Магазин ноутбуков =====");
-            System.out.println("1. Показать все ноутбуки");
+            System.out.println("Не без помощи друзей написано");
+            System.out.println("\n =) Магазинчик ноутбуков =)");
+            System.out.println("1. все ноутбуки");
             System.out.println("2. Отфильтровать ноутбуки");
             System.out.println("0. Выйти");
             System.out.print("Выберите действие: ");
@@ -172,7 +173,7 @@ public class HomeWork {
                     store.filterLaptops();
                     break;
                 case 0:
-                    System.out.println("До свидания! Программа подготовлена студентом GB Павел О. Преподаватель Вороновский Роман.");
+                    System.out.println("До свидания!");
                     break;
                 default:
                     System.out.println("Неверный выбор. Попробуйте снова.");
