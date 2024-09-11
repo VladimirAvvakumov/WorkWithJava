@@ -1,4 +1,4 @@
-package HomeWorkPc;
+package HomeWorkLapTop;
 
 import java.util.HashMap;
 import java.util.HashSet;
