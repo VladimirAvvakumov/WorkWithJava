@@ -5,18 +5,19 @@ import javax.xml.validation.Validator;
 //новый оператор метод 
 public class task18 {
     public static void main(String[] args) {
-        int mounth = 2;
-        String text = "";
-        switch (mounth) {
-            case 2:
+        int month = 2; // Устанавливаем значение месяца в переменную
+
+        String text = ""; // Инициализируем строку для хранения текста
+
+        switch (month) { // Используем оператор switch для проверки значения месяца
+            case 2: // Если месяц равен 2, устанавливаем текст в "Autumn"
                 text = "Autumn";
-                break;
-        
-            default:
-            text = "mistake";
-                break;
+                break; // Прерываем выполнение блока case
+            default: // Если ни один из случаев не подходит, устанавливаем текст в "mistake"
+                text = "mistake";
+                break; // Прерываем выполнение блока default
         }
-        System.out.println(text);
-        // iScanner.close();
+
+        System.out.println(text); // Выводим текст на экран
     }
 }

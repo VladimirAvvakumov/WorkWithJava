@@ -2,7 +2,7 @@ package lection1;
 //функции методы
 
 
-
+// пишем методы и запускаем их в мэйне
 public class task16 {
     static void sayHi(){
         System.out.println("hi!");
@@ -10,7 +10,7 @@ public class task16 {
     static int sum(int a, int b){
         return a+b;
     }
-    static double factor(int n){// рекурсия
+    static double factor(int n){// рекурсия факториал
         if(n==1)return 1;
         return n * factor(n-1);
     }

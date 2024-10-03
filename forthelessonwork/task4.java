@@ -17,7 +17,8 @@ public class task4 {
     }
 // метод что то типо массива строк принимает не мейн
     public static List<String> readDir(String path) {//метод прочитать из папки принимает путь из какой папки будем читать
-        File folder = new File(path);// создает новый объект класса File, который представляет файл или папку, расположенную по указанному пути (path).
+        File folder = new File(path);// создает новый объект класса File, который представляет файл или папку, расположенную по указанному 
+        //пути (path).
 
         if(!folder.isDirectory()){// обработали возможную ошибку если не являеться папкой
             throw new RuntimeException("file is not directory");
